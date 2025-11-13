@@ -32,7 +32,7 @@ const MyFavouritePage = () => {
                         </div>
                     ) : (
                         <div className="text-center my-5">
-                            <Image src="src/assets/images/not-found.png" className="mb-4" width={300} />
+                            <Image src="/images/not-found.png" className="mb-4" width={300} />
                             <h2 className="text-white mb-0">No Favourite Anime Found</h2>
                         </div>
                     )}

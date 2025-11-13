@@ -118,7 +118,7 @@ const AnimeList = () => {
       <Container className="py-md-5 py-3 min-vh-100 d-flex align-items-center justify-content-center w-100">
         <Row className="align-items-center justify-content-end w-100">
           <Col xs="12" lg="6">
-            <Image className="w-100" src="../../src/assets/images/404.png"></Image>
+            <Image className="w-100" src="/images/404.png"></Image>
           </Col>
           <Col xs="12" lg="6" className="text-center text-md-start mt-4 mt-md-0">
             <h2 className="text-white mb-3">{error.code ?? 'Something went wrong'}</h2>
@@ -287,7 +287,7 @@ const AnimeList = () => {
                 ) : (
                   <Col xs="12">
                     <div className="text-center my-5">
-                      <Image src="src/assets/images/not-found.png" width={300} />
+                      <Image src="/images/not-found.png" width={300} />
                       <h2 className="text-white mb-3">No Anime Found</h2>
                       <h5 className="text-theme-secondary">Please try to search other keywords...</h5>
                     </div>
