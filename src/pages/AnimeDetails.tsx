@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { Button, Container, Tab, Tabs } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchAnimeDetails, clearAnimeDetail } from "../store/animeDetailSlice";
 import type { RootState, AppDispatch } from "../store";
