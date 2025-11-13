@@ -1,0 +1,17 @@
+## Bonus Implementation
+- Filter by type, rating, and order
+- Add, remove or clear all favourite anime
+- Persistent favourite list using `localStorage`
+- Favourite Page
+- Responsive layout with React Bootstrap
+- Skeleton loaders
+- Inifinite scroll (Commented, Test for fun)
+- UI Design
+- Proper error handling (network failures, rate limiting, invalid API responses)
+- Race condition handling
+- Empty state and no results handling with helpful messaging
+- Robust API Handling — implemented custom Axios helpers for:
+  - Request cancellation — to prevent race conditions when users search quickly
+  - Retry logic with exponential backoff — for handling API rate limits (HTTP 429)
+  - Centralized error handling — for network errors, invalid responses, and API errors
+  - This ensures smoother user experience even when the API is slow or temporarily unavailable
